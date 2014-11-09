@@ -1,6 +1,6 @@
 __author__ = 'Pat McClernan'
 
-
+#calculates the primes from 2(inclusive) to num(inclusive)
 def primenumbers(num):
     thisnum = 4
     num = int(num)
@@ -9,6 +9,7 @@ def primenumbers(num):
 
     return 0
 
+#checks to see if num is prime
 def isPrime(num):
     flag = True;
     for i in range(int(num - 1), 1, -1):
